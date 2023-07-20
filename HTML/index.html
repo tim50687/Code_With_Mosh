@@ -22,6 +22,14 @@
       ul {
         list-style-type: square;
       }
+      table, td , th{
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
     </style>
   </head>
   <body>
@@ -93,5 +101,35 @@
       <dd>Respponsive Design</dd>
       <dd>Search engine optimization</dd>
     </dl>
+
+    <!-- table -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan = "2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+        
+      </thead>
+      <tbody> 
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
